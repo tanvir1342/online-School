@@ -1,0 +1,41 @@
+<div class="side-navbar" [ngClass]=" {'side-navbar-expand':menuStatus}">
+    <div class="sdie-navbar-items ms-2">
+        <button class="btn btn-primary toogle" (click)="ToogleSideNavbar()"><i class="fa-solid fa-bars"></i></button>
+        
+        
+        <ul class= "navbar-nav mb-0">
+            <li class="nav-list-items" routerLink="dashboard">
+                <i class="fa-solid fa-house"></i>
+                <span>
+                    <a>Dashbord</a>
+                </span>
+            </li>
+            <li class="nav-list-items" routerLink="profile">
+                <i class="fa-solid fa-user"></i>
+                <span>
+                    <a>Profile</a>
+                </span>
+            </li>
+            <li class="nav-list-items">
+                <i class="fa-regular fa-face-smile"></i>
+                <span>
+                    <a href="">Exam</a>
+                </span>
+            </li>
+            <li class="nav-list-items">
+                <i class="fa-solid fa-money-bill-wheat"></i>
+                <span>
+                    <a href="">Pay</a>
+                </span>
+            </li>
+            <li class="nav-list-items end">
+                <i class="fa-solid fa-gears"></i>
+                <span>
+                    <a href="">Setting</a>
+                </span>
+            </li>
+            
+        </ul>
+
+    </div>
+</div>

@@ -1,0 +1,14 @@
+main{
+   position:absolute;
+   width: 100%;
+}
+app-sidenavbar{
+   width:200px;
+   height: 100vh;
+   position:absolute;
+}
+.main-display{
+   position:absolute;
+   left: 200px;
+   width: calc(100%-200px);
+}
